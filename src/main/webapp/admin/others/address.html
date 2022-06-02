@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>校园跑腿</title>
+    <meta name="description" content="校园跑腿"/>
+    <meta name="keywords" content="校园跑腿"/>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" href="../../css/run_school/amazeui.min.css"/>
+    <link rel="stylesheet" href="../../css/run_school/style.css"/>
+    <script type="text/javascript" src="../../js/run_school/jquery.min.js"></script>
+    <script type="text/javascript" src="../../js/run_school/amazeui.min.js"></script>
+    <script type="text/javascript" src="../../js/run_school/application.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="../../lib/layui-v2.6.3/css/layui.css">
+    <script src="../../lib/layui-v2.6.3/layui.js"></script>
+
+</head>
+<body>
+<header data-am-widget="header" class="am-header am-header-default header">
+    <div class="am-header-left am-header-nav">
+        <a href="javascript:history.go(-1)" class="">
+            <i class="am-header-icon am-icon-angle-left"></i>
+        </a>
+    </div>
+    <h1 class="am-header-title"><a href="#title-link" class="" style="color: #333;">收货地址</a></h1>
+    <div class="am-header-right am-header-nav">
+        <a href="../blog/add_address.html" class="blue" style="color: #79bbff">添加</a>
+    </div>
+</header>
+    <ul class="address-list" id="address-list">
+    </ul>
+
+    <input type="text" name="userAddress" class="userAddress" value="1">
+<button id="is" class="layui-btn layui-btn-normal"><a href="javascript:history.go(0)" class="">使用</a></button>
+</body>
+</html>
+<script>
+    $.ajax({
+        type:'post',
+        url:'/CampusForum/getAddress',
+        dataType:'json',
+        success:function (data,textStatus) {
+            if (data.data.length==0){
+                $('#is').hide();
+                $('.userAddress').hide();
+                layui.use('layer', function(){
+                    var layer = layui.layer;
+                    layer.msg('你暂时还未添加地址信息');
+                });
+                return;
+            }
+            let li="";
+            for (let i = 0; i < data.data.length; i++) {
+                li+=
+                '        <li class="curr">\n' +
+                '            <span hidden class="id">'+data.data[i].addressCount+'</span>\n' +
+                '            <p class="user">收货人：'+data.data[i].userName+'&nbsp;&nbsp;'+data.data[i].userNumber+'</p>\n' +
+                '            <p class="order-add1">'+data.data[i].userAddress+'</p>\n' +
+                '        </li>'
+            }
+            $('#address-list').html(li)
+            $(".curr").on("click",function () {
+                var l=$(this).find(".id").text()
+                $('.userAddress').val(l)
+                $('#is').on("click",function () {
+                    localStorage.setItem("userAddress", l)
+                })
+            })
+        },
+        error:function (XMLHttpRequest, textStatus, errorThrown) {
+            console.log(errorThrown)
+        }
+    })
+</script>

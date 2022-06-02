@@ -1,0 +1,33 @@
+/*
+ * Copyright (c) 2022. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+ * Morbi non lorem porttitor neque feugiat blandit. Ut vitae ipsum eget quam lacinia accumsan.
+ * Etiam sed turpis ac ipsum condimentum fringilla. Maecenas magna.
+ * Proin dapibus sapien vel ante. Aliquam erat volutpat. Pellentesque sagittis ligula eget metus.
+ * Vestibulum commodo. Ut rhoncus gravida arcu.
+ */
+body{
+    background:url(../../images/back.png) #fff;
+}
+#con,
+.test,
+#content {
+    width: 80%;
+    background-color: white;
+    margin: 0 auto;
+}
+#con{
+    border: 2px solid #614545;
+    border-radius: 10px;
+}
+#content{
+    border: 2px solid #be9797;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.test{
+    border: 2px solid #614545;
+    margin-top: 10px;
+}
+#c1{
+    margin: 0 auto;
+}

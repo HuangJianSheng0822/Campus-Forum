@@ -1,0 +1,50 @@
+<!--
+  ~ Copyright (c) 2022. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  ~ Morbi non lorem porttitor neque feugiat blandit. Ut vitae ipsum eget quam lacinia accumsan.
+  ~ Etiam sed turpis ac ipsum condimentum fringilla. Maecenas magna.
+  ~ Proin dapibus sapien vel ante. Aliquam erat volutpat. Pellentesque sagittis ligula eget metus.
+  ~ Vestibulum commodo. Ut rhoncus gravida arcu.
+  -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Title</title>
+		<link type="text/css" rel="stylesheet" href="../css/comment/pinglun.css">
+		<link type="text/css" rel="stylesheet" href="../css/index/blog.css">
+		<script type="text/javascript" src="../lib/jquery-3.4.1/jquery-3.4.1.min.js" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="con">
+<!--			<span >作者</span>-->
+			<h2 id="author"></h2>
+<!--			<span>其他</span>-->
+			<hr>
+		</div>
+		<div id="content"></div>
+		<div class="test">
+			<div lang="en-US" class="gitment-container gitment-editor-container test">
+				<div class="gitment-editor-main">
+					<div class="gitment-editor-body">
+						<div class="gitment-editor-write-field">
+							<textarea placeholder="你想说些什么" title="Login to Comment" id="userComment"
+								name="userComment"></textarea>
+						</div>
+						<div class="gitment-editor-preview-field gitment-hidden">
+							<div class="gitment-editor-preview gitment-markdown"></div>
+						</div>
+					</div>
+				</div>
+				<div class="gitment-editor-footer">
+					<button class="gitment-editor-submit" id='sub' title="Login to Comment">评论</button>
+				</div>
+			</div>
+			<div lang="en-US" class="gitment-container gitment-comments-container" id="c1">
+				<ul class="gitment-comments-list" id="demo">
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="../js/ajax/blog.js" charset="utf-8"></script>

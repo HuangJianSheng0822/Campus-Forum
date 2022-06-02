@@ -1,0 +1,8 @@
+/*可以在这里添加你自己的css*/
+.edui-editor-bottomContainer{
+    display:none;
+}
+
+#edui1_iframeholder{
+    height: 35%;
+}

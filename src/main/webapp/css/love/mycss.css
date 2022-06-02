@@ -1,0 +1,30 @@
+#myhead{
+    height: 42px;
+}
+#icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myhead img{
+    margin-left: 4%;
+    height: 77%;
+}
+
+#mymaid_d{
+    margin-top: 5px;
+}
+
+#mylist{
+    margin-top: -75px;
+}
+
+#user_comment{
+    height: 32px;
+}
+
+#user_comment input{
+    height: 22px;
+    line-height: 0px;
+}

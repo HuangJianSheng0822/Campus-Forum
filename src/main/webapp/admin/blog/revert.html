@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link type="text/css" rel="stylesheet" href="../../lib/layui-v2.6.3/css/layui.css">
+  <script src="../../lib/layui-v2.6.3/layui.js"></script>
+  <style>
+    body {font-family: Arial, Helvetica, sans-serif;}
+    * {box-sizing: border-box;}
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    input[type=submit] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+<h3>填写相关信息</h3>
+<div class="container">
+  <form action="/CampusForum/admin/addRevert" method="post" enctype="multipart/form-data">
+    <label>物品类型：</label>
+    <input type="text" name="type" required  placeholder="请输入物品的类型">
+    <label>拾取时间：</label>
+    <input type="text" name="pickupTime" required  placeholder="请输入物品的大致丢失时间">
+    <label>拾取地点：</label>
+    <input type="text" name="address" required  placeholder="请输入物品的大致丢失地点">
+    <label>联系方式：</label>
+    <input type="text" name="contant" required  placeholder="请输入联系电话">
+    <label>物品图片：</label>
+    <div class="layui-upload">
+      <button type="button" class="layui-btn" id="test1">选择封面</button>
+    </div>
+    <label>物品描述：</label>
+    <textarea name="description" rows="10" cols="50" placeholder="请输入有关物品的更多细节……"></textarea>
+    <input type="submit" value="提交">
+  </form>
+</div>
+</body>
+<script>
+  layui.use(['upload','jquery'], function(){
+    var $ = layui.jquery
+            ,upload = layui.upload;
+
+    //普通图片上传
+    var uploadInst = upload.render({
+      elem: '#test1'
+      // ,url: '/CampusForum/upload'
+      ,auto: false
+      ,bindAction: "#btn"
+      ,accept:'images'
+      ,exts:'jpg|png'
+      ,multiple:false
+      ,size:3072
+      ,before: function(obj){
+        //预读本地文件示例，不支持ie8
+        obj.preview(function(index, file, result){
+          $('#demo1').attr('src', result); //图片链接（base64）
+        });
+      }
+      ,done: function(res){
+        //如果上传失败
+        if(res.state > 0){
+          layer.msg('上传失败');
+        }
+        //上传成功
+        layer.msg('上传成功');
+      }
+    });
+  });
+</script>
+</html>

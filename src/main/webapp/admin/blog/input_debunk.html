@@ -1,0 +1,93 @@
+<!--
+  ~ Copyright (c) 2022. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  ~ Morbi non lorem porttitor neque feugiat blandit. Ut vitae ipsum eget quam lacinia accumsan.
+  ~ Etiam sed turpis ac ipsum condimentum fringilla. Maecenas magna.
+  ~ Proin dapibus sapien vel ante. Aliquam erat volutpat. Pellentesque sagittis ligula eget metus.
+  ~ Vestibulum commodo. Ut rhoncus gravida arcu.
+  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <title>Title</title>
+
+    <link rel="stylesheet" href="../../lib/layui-v2.6.3/css/layui.css" media="all">
+    <link rel="stylesheet" href="../../css/public.css" media="all">
+    <script src="../../lib/layui-v2.6.3/layui.js" charset="utf-8"></script>
+    <script src="../../lib/jquery-3.4.1/jquery-3.4.1.min.js" charset="utf-8"></script>
+    <script src="../../lib/jq-module/jquery.particleground.min.js" charset="utf-8"></script>
+    <!-- 配置文件 -->
+    <script type="text/javascript" src="../../js/ueditor2/ueditor.config.js"></script>
+    <!-- 编辑器源码文件 -->
+    <script type="text/javascript" src="../../js/ueditor2/ueditor.all.js"></script>
+    <style>
+        #edui1_iframeholder{
+            height: 350px;
+        }
+        .layui-upload{
+            margin-top: 18px;
+            margin-bottom: 15px;
+        }
+        span{
+            font-size: 14px;
+        }
+        input{
+            height: 21px;
+            border-width: 1px;
+            border-color: #559cd1;
+            border-radius: 3px;
+        }
+
+    </style>
+</head>
+<body>
+
+<form enctype="multipart/form-data" action="/CampusForum/addBlog" method="post">
+    <script id="container" name="content" type="text/plain">初始化内容</script>
+    <div class="layui-upload">
+        <button type="button" class="layui-btn" id="test1" style="background: #00a0e9">选择封面</button>
+    </div>
+    <span>标题</span>
+    <input type="text" name="title" >
+    <button id="sum" type="submit" class="layui-btn" style="background: #00a0e9">提交</button>
+</form>
+
+<script type="text/javascript">
+    var ue = UE.getEditor('container');
+</script>
+</body>
+</html>
+<script>
+    layui.use(['upload','jquery'], function(){
+        var $ = layui.jquery
+            ,upload = layui.upload;
+
+        //普通图片上传
+        var uploadInst = upload.render({
+            elem: '#test1'
+            // ,url: '/CampusForum/upload'
+            ,auto: false
+            ,bindAction: "#btn"
+            ,accept:'images'
+            ,exts:'jpg|png'
+            ,multiple:false
+            ,size:3072
+            ,before: function(obj){
+                //预读本地文件示例，不支持ie8
+                obj.preview(function(index, file, result){
+                    $('#demo1').attr('src', result); //图片链接（base64）
+                });
+            }
+            ,done: function(res){
+                //如果上传失败
+                if(res.state > 0){
+                    layer.msg('上传失败');
+                }
+                //上传成功
+                layer.msg('上传成功');
+            }
+        });
+    });
+</script>

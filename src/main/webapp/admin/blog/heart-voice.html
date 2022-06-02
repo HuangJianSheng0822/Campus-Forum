@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="../../lib/layui-v2.6.3/css/layui.css">
+    <script src="../../lib/layui-v2.6.3/layui.js"></script>
+</head>
+<body>
+<script>
+    var _json =
+        '{"did_1645113535927_0":{"id":"textarea","name":"description","required":"0","disabled":"","labelWidth":80,"rowWidth":100,"inputWidth":60,"label":"我想对你说","minLength":"10","maxLength":"300","divId":"did_1645113535927_0"},"did_1645113535928_1":{"id":"switch","name":"isAnnoymous","required":"0","disabled":"","labelWidth":80,"rowWidth":100,"isSelect":"0","selectedValue":"0","defValue":"1","label":"是否匿名","divId":"did_1645113535928_1"},"did_1645113535930_2":{"id":"submitData","name":"name1645113510096","divId":"did_1645113535930_2"}}';
+</script>
+<form class="layui-form" id="form" lay-filter="form" action="/CampusForum/addLove" method="post">
+    <div class="layui-form-item adminj-sort-item" id="did_1645113535927_0" cpt_id="textarea"
+         style="width: 100%;">
+        <label class="layui-form-label">我想对你说</label>
+        <div class="layui-input-inline" style="width:60%;">
+					<textarea class="layui-textarea" name="description" style="width: 99%;"
+                              lay-verify="minLength|maxLength|required"></textarea>
+        </div>
+
+
+    </div>
+    <div class="layui-form-item adminj-sort-item" id="did_1645113535928_1" cpt_id="switch" style="width: 100%; display: none">
+        <label class="layui-form-label">是否匿名</label>
+        <div class="layui-input-inline">
+            <input type="checkbox" checked="" name="isAnnoymous" lay-skin="switch" lay-filter="switch" lay-text="NO|OFF">
+        </div>
+        <div class="layui-form-mid layui-word-aux"></div>
+
+    </div>
+    <div id="did_1645113535930_2" class="layui-form-item adminj-sort-item" cpt_id="submitData">
+        <div class="layui-input-block">
+            <button type="submit" class="layui-btn" lay-submit="" lay-filter="postButton"
+                    id="postButton" style="background: #00a0e9">立即提交</button>
+        </div>
+    </div>
+</form>
+</body>
+</html>

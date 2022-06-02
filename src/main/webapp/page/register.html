@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge" http-equiv="X-UA-Compatible">
+		<meta content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+			name="viewport" />
+		<title>仿钉钉网登录注册页面静态模板源码</title>
+		<!--    <link href="../css/register/bootstrap.min.css" rel="stylesheet">-->
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+			integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link href="../css/register/a3common.css" rel="stylesheet">
+		<link href="../css/register/font.css" rel="stylesheet">
+		<link href="../css/register/register.css" rel="stylesheet">
+		<script src="../lib/jquery-3.4.1/jquery-3.4.1.min.js" charset="utf-8"></script>
+		<style>
+			.layui-upload-choose {
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+
+
+		<div class="main-warp" id="main">
+			<div class="main-content">
+				<div class="formDiv">
+
+					<h2 class="title text-center">注册</h2>
+
+					<div>
+						<div class="form-item">
+							<div class="input-warp">
+								<span class="input-icon iconfont icon-youxiangbangding"></span><input class="inputs"
+									id="email" name="id" placeholder="邮箱地址" type="text" value="" />
+							</div>
+							<p class="errMsg" id="emailErr"></p>
+						</div>
+						<div class="form-item">
+							<div class="input-warp s">
+								<span class="input-icon iconfont icon-yanzhengma"></span>
+								<input class="inputs" id="key" name="code" placeholder="验证码" type="text" />
+								<div id="popup-captcha" style="display: none"></div>
+							</div>
+							<div class="pull-right">
+								<button class="btn lgbtn blue" id="btnSendCode">获取验证码</button>
+							</div>
+							<p class="errMsg" id="kaptchaErr"></p>
+						</div>
+
+						<div class="form-item">
+							<div class="input-warp">
+								<span class="input-icon iconfont icon-baomi"></span>
+								<input class="inputs" id="pwd" maxlength="20" name="password" placeholder="至少6位字母或数字"
+									type="password" value="" />
+							</div>
+							<p class="errMsg" id="passwordErr"></p>
+						</div>
+						<div class="form-item">
+							<div class="input-warp">
+								<span class="input-icon iconfont icon-baomi"></span>
+								<input class="inputs" id="repwd" maxlength="20" name="password2" placeholder="至少6位字母或数字"
+									type="password" value="" />
+							</div>
+							<p class="errMsg" id="passwordErr2"></p>
+						</div>
+
+						<div class="form-item ">
+							<div class="input-warp">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+									class="bi bi-emoji-smile" viewBox="0 0 16 16"
+									style="float: left;margin-right: 20px;margin-left: 2px">
+									<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+									<path
+										d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z" />
+								</svg>
+								<select class="input-warp" lay-verify="required" id="school" name="school">
+									<option selected="" value="sspu">上海第二工业大学</option>
+									<option value="北京大学">北京大学</option>
+									<option value="清华大学">清华大学</option>
+								</select>
+							</div>
+							<div class="layui-form-mid layui-word-aux"></div>
+							<p class="errMsg"></p>
+
+
+							<div class="btn-warp">
+								<div class="text-center">
+									<button class="btn lgbtn blue btn-block" id="btnSubmit" type="button">注册</button>
+								</div>
+							</div>
+							<div class="agreement gap">
+								<div class="text-right">
+									<div class="pull-left">已有账号，<a class="link" href="login.html">登录</a></div>
+									<p>注册即代表您已阅读并同意《<a class="link" href="javascript:;" target="_blank">使用协议</a>》</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="../js/ajax/register.js" charset="utf-8"></script>
+

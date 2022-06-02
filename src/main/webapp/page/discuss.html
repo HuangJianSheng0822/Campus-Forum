@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+		<!-- 强制让文档的宽度与设备的宽度保持1:1，并且文档最大的宽度比例是1.0，且不允许用户点击屏幕放大浏览； -->
+		<title>评论页面</title>
+		<link rel="stylesheet" media="screen and (max-width:600px)" href="../css/love/small.css" type="text/css" />
+		<link rel="stylesheet" media="screen and (max-width:899px) and (min-width:601px)" href="../css/love/middle.css" type="text/css" />
+		<link rel="stylesheet" media="screen and (min-width:900px)" href="../css/love/big.css" type="text/css"  />
+		<link rel="stylesheet"  href="../css/love/mycss.css" type="text/css" />
+		<link rel="stylesheet" href="../lib/layui-v2.6.3/css/layui.css" media="all">
+		<script type="text/javascript">
+			window.onload=function(){
+				var aCol=['#afe0d3','#eca5b7','#c0efb0'];
+				var aLI=document.getElementsByTagName('li');
+				for(var i=0,l=aLI.length;i<l;i++){
+					aLI[i].style.backgroundColor=aCol[i%3];
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="main_d" id="mymaid_d">
+				<div class="content">
+					<span> 匿名消息&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017-10-09  18:58:37</span>
+					<p>表白我自己，一级棒！</p>
+				</div>
+				<ul class="list_d" id="list">
+<!-- 					<li>
+						<span> 匿名消息&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017-10-09  18:58:37</span>
+						<p>表白我自己，一级棒！送到附近酒店经理看到结果发的链接过来看</p>
+					</li>
+					<li>
+						<span> 匿名消息&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017-10-09  18:58:37</span>
+						<p>表白我自己，一级棒！</p>
+					</li>
+					<li>
+						<span> 匿名消息&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017-10-09  18:58:37</span>
+						<p>表白我自己，一级棒！</p>
+					</li>
+					<li>
+						<span> 匿名消息&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017-10-09  18:58:37</span>
+						<p>表白我自己，一级棒！</p>
+					</li>
+					<li>
+						<span> 匿名消息&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017-10-09  18:58:37</span>
+						<p>表白我自己，一级棒！</p>
+					</li> -->
+				</ul>
+			</div>
+			<form class="form" method='post' action='/CampusForum/admin/addComment' id="user_comment">
+				<input type='text' name='userComment'>
+<!--					<input type='hidden' name='id' value=234>-->
+					<input type='submit' value='提交评论' id="mysubmin">
+			</form>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="../js/ajax/discuss.js" charset="utf-8"></script>

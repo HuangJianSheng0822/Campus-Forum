@@ -1,0 +1,32 @@
+body,ul{margin: 0;padding:0;}
+body{background: #ffeaee;}
+.wrap{display: flex;flex-direction: column;}
+/* 头部样式 */
+.head{background: #72c3ff;height: 100px;display: flex; justify-content:center;position: fixed;top:0;left:0;width: 100%;z-index: 1;}
+.head img{height: 90%;align-self: center;margin-right:30%;margin-left: 3%;}
+.head input{font-size: 26px;background:#ffeaee;border: none;cursor: pointer;align-self: center;margin-right:20px;padding: 18px;display: inline-block;border-radius: 5px;box-shadow: 1px 1px 1px grey; }
+/* index样式 */
+.main{display: flex;justify-content: center;background: #ffeaee;margin-top:100px;}
+.list{width: 90%;padding-top:20px;min-width: 340px;display: flex;flex-direction: column;font-size: 28px;}
+.list li{list-style: none;display: block;border-radius:5px;background: #62d8f1;margin-top: 20px;padding: 20px;color: white;position: relative;box-shadow: 2px 2px 3px grey}
+.list span{font-style: italic;font-weight:lighter;}
+.list p{text-indent:1.5em;line-height: 45px;word-wrap: break-word;}
+.list a{position: absolute;right: 10px;bottom: 10px;text-decoration: none;color: black;}
+/* discuss样式 */
+.main_d{display: flex;flex-direction:column;justify-content: center;width: 90%;margin: 0 auto;margin-top:120px;}
+.content{padding:20px;min-width: 340px;font-size: 20px;color: white;background: #62a3f1;font-size: 28px;}
+.content span{font-style: italic;font-weight:lighter;}
+.content p{text-indent:1.5em;line-height: 45px;word-wrap: break-word;}
+.list_d{display: block;padding:30px 30px 0 30px;border-radius: 10px;border: 2px solid #c5c5c5;background:#eeeeee;margin-top: 20px;font-size: 22px;}
+.list_d li{list-style: none;display: block;border-radius:5px;background: #62d8f1;margin-bottom: 30px;padding: 30px;color: black;position: relative;box-shadow: 2px 2px 3px grey}
+.list_d p{text-indent:1.5em;line-height: 30px;word-wrap: break-word;}
+.form{height: 80px;position: fixed;bottom: 0;display: flex;width:100%;justify-content: center;z-index: 1;background:#c0c0c0;align-items: center;}
+.form input{height: 60px;margin: 0 10px;line-height: 60px;font-size: 38px;vertical-align: middle;}
+.form input:last-child{font-size: 24px;display: inline-block;border-radius: 4px;text-align: center;padding: 6px;line-height: 20px;
+	background: #eeeeee;}
+.form input:first-child{width:360px;}
+.message{z-index: 2;background: rgba(192, 192, 192, 0.77);height: 800px;position: fixed;width: 100%;display: none;justify-content: center;align-items: center;}
+.form_i{display: flex;flex-direction: column;align-items: center;width: 400px;height: 200px;background: #338fb2;border: 10px solid white;position: relative;}
+.form_i h2{margin:5px 0;padding:0;font-weight: normal;padding: 5px;font-size: 20px;}
+.form_i textarea{width: 95%;height:50%;background:#dae7dc;font-size:18px;font-family:'黑体','微软雅黑'  }
+.form_i input{position: absolute;right: 10px;bottom: 10px;width: 20%;}

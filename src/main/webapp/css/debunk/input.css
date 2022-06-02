@@ -1,0 +1,83 @@
+/*
+ * Copyright (c) 2022. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+ * Morbi non lorem porttitor neque feugiat blandit. Ut vitae ipsum eget quam lacinia accumsan.
+ * Etiam sed turpis ac ipsum condimentum fringilla. Maecenas magna.
+ * Proin dapibus sapien vel ante. Aliquam erat volutpat. Pellentesque sagittis ligula eget metus.
+ * Vestibulum commodo. Ut rhoncus gravida arcu.
+ */
+
+.s1{
+    margin: 20px 10px 15px 10px;
+    width: 700px;
+    height: 500px;
+}
+.my_img{
+    position: absolute;
+    left: 2px;
+    top: 30px;
+    z-index: 1;
+    font-family: "微软雅黑";
+}
+.div1{
+    position: relative;
+    left: 0px;
+    top: 5px;
+    height: 280px;
+}
+.my_img1{
+    position: absolute;
+    top: 45px;
+
+}
+.div2{
+    position: absolute;
+    left: 60px;
+    right: 15px;
+}
+
+.div3{
+    font-family: "微软雅黑";
+    position: relative;
+    top: 5px;
+    font-weight: bold;
+    color:  darkblue;
+}
+.div_text{
+    position: relative;
+    top: 15px;
+    font-family: "宋体";
+    font-size: 15px;
+}
+.div4{
+    position: relative;
+    top: 30px;
+}
+.div5{
+    position: relative;
+    left: 17px;
+    line-height: 22px;
+    font-family: "宋体";
+}
+a.a1{
+    text-decoration: none;
+    color: mediumblue;
+    font-family: "宋体";
+}
+.div6{
+    position: relative;
+    top:45px;
+}
+.txt{
+    font:  normal  normal  17px  "宋体";
+    color: darkgray;
+    white-space: pre;
+}
+.pic{
+    position: relative;
+    top: -2px;
+
+}
+.line{
+    position: relative;
+    top: 200px;
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.RewardMoneyMapper">
+    <select id="getRewardMoney" resultType="com.pojo.RewardMoney">
+        select * from rewardmoney limit #{page} ,#{limit}
+    </select>
+    <select id="getUsertRewardMoney" resultType="rewardMoney" parameterType="map">
+        SELECT
+        rewardmoney.con_id,
+        rewardmoney.user_id,
+        rewardmoney.title,
+        rewardmoney.price,
+        rewardmoney.kind,
+        rewardmoney.begin_date,
+        rewardmoney.recipient,
+        rewardmoney.end_date
+        FROM
+        rewardmoney
+        <where>
+            rewardmoney.user_id = #{userId}
+            <if test="has==null">
+                AND
+                rewardmoney.recipient is null
+            </if>
+            <if test="has!=null">
+                AND
+                rewardmoney.recipient is not null
+            </if>
+        </where>
+        ORDER BY
+        rewardmoney.begin_date DESC
+    </select>
+</mapper>

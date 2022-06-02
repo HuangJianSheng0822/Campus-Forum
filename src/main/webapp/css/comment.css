@@ -1,0 +1,36 @@
+h2{
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+ul{
+    list-style-type:none;
+    margin-left: 0px;
+    padding-left: 5px;
+}
+ul li{
+    width: auto;
+    border-width: 3px;
+    border-color: lightblue;
+    border-style: solid;
+    background: linear-gradient(135deg, #e2d1c3 10%, #fafcfb 100%);
+    margin-bottom: 2px;
+    margin-right: 4px;
+
+}
+
+.id{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.mylayui-card{
+    text-align: center;
+}
+.layui-card{
+    width: 50%;
+    margin:auto;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+#imageurl{
+    width: 50%;
+}

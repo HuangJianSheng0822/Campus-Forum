@@ -1,0 +1,230 @@
+@charset "UTF-8";
+#loginDiv {
+    display: none !important
+}
+
+.navbar-header > button {
+    display: none !important
+}
+
+.formDiv h2 {
+    padding: 10px 0 20px;
+    font-size: 20px;
+    color: #545454;
+    font-weight: 500
+}
+
+.title {
+    padding: 10px 0 20px;
+    font-size: 20px;
+    color: #545454
+}
+
+.ding {
+    padding: 40px 15px 20px 15px;
+    text-align: center
+}
+
+.ding img {
+    border-radius: 5px
+}
+
+.ding ul {
+    width: 300px;
+    margin: 15px auto
+}
+
+.ding ul li {
+    text-align: left;
+    padding: 5px
+}
+
+.switch {
+    text-align: right;
+    padding-right: 15px;
+    line-height: 34px
+}
+
+.fade-out {
+    animation-duration: 1s
+}
+
+.fade-in {
+    animation-duration: .5s
+}
+
+html, body {
+    height: 100%;
+    padding: 0;
+    background: #fff;
+    color: #545454
+}
+
+.errMsg {
+    color: rgba(253, 66, 56, .8);
+    text-indent: 18px
+}
+
+.navbar {
+    min-height: 60px
+}
+
+.navbar-inverse {
+    background-color: #fff;
+    border-color: #fff;
+    color: #676767
+}
+
+@media (min-width: 994px) {
+    .ourlogo {
+        height: 32px;
+        margin-top: 10px;
+        margin-bottom: 5px
+    }
+}
+
+.main-warp {
+    position: absolute;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    background: #fff url("../../images/loginback.png") no-repeat;
+    background-size: cover
+}
+
+.inputs {
+    border: 0;
+    color: #545454;
+    background: transparent
+}
+
+@media (min-width: 1025px) {
+    .input-icon {
+        padding: 0 18px
+    }
+
+    .inputs {
+        width: 70%
+    }
+
+    .input-warp.s {
+        width: 70%
+    }
+
+    .main-content {
+        width: 500px;
+        margin-top: 100px;
+        padding: 20px 50px;
+        border-radius: 4px
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .input-icon {
+        padding: 0 18px
+    }
+
+    .inputs {
+        width: 70%
+    }
+
+    .input-warp.s {
+        width: 70%
+    }
+
+    .main-warp {
+        background-image: none
+    }
+
+    .main-content {
+        width: 500px;
+        margin-top: 100px;
+        padding: 20px 50px;
+        border-radius: 4px;
+        box-shadow: 0 0 4px rgba(0, 0, 0, .2)
+    }
+
+    body {
+        background-image: none
+    }
+}
+
+@media (max-width: 767px) {
+    .input-icon {
+        padding: 0 8px
+    }
+
+    .main-warp {
+        background-image: none
+    }
+
+    .main-content {
+        width: 100%;
+        margin-top: 0;
+        padding: 20px 20px
+    }
+
+    .input-warp.s {
+        width: 65%
+    }
+
+    .input-warp.s .inputs {
+        width: 60%
+    }
+}
+
+.main-content {
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    margin-bottom: 50px
+}
+
+.input-icon {
+    color: #999
+}
+
+.inputs:focus {
+    outline: 0
+}
+
+.input-warp {
+    border: 1px solid #e9e9e9;
+    border-radius: 2px;
+    padding: 7px 0
+}
+
+.input-warp.s {
+    display: inline-block;
+    box-sizing: border-box
+}
+
+.input-warp.focus {
+    border-color: #649efd
+}
+
+p {
+    margin-bottom: 20px
+}
+
+.lgbtn {
+    line-height: 26px
+}
+
+a.link {
+    color: #649efd
+}
+
+a.link:hover {
+    color: #649efd;
+    text-decoration: underline
+}
+
+.gap {
+    margin-top: 20px
+}
+
+.agreement {
+    font-size: 13px;
+    color: #999
+}

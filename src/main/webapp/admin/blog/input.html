@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../lib/layui-v2.6.3/css/layui.css" media="all">
+    <link rel="stylesheet" href="../../css/public.css" media="all">
+    <script src="../../lib/layui-v2.6.3/layui.js" charset="utf-8"></script>
+    <script src="../../lib/jquery-3.4.1/jquery-3.4.1.min.js" charset="utf-8"></script>
+    <script src="../../lib/jq-module/jquery.particleground.min.js" charset="utf-8"></script>
+    <!-- 配置文件 -->
+    <script type="text/javascript" src="../../js/ueditor/ueditor.config.js"></script>
+<!--     编辑器源码文件 -->
+    <script type="text/javascript" src="../../js/ueditor/ueditor.all.js"></script>
+    <style>
+	#edui1_iframeholder{
+	    height: 350px;
+	}
+        .layui-form-label {
+            float: left;
+            margin-left: -60px;
+        }
+        input,.layui-input{
+            height: 21px;
+            border-width: 1px;
+            border-color: #559cd1;
+            border-radius: 3px;
+        }
+		.layui-form-label{
+			line-height: 0px;
+		}
+		.layui-input-block{
+			margin-left: 0px;
+		}
+		#test1{
+			margin-top: 15px;
+			margin-bottom: 15px;
+		}
+    </style>
+</head>
+<body>
+<script>
+    var _json =
+        '{"did_1643181317755_0":{"id":"text","name":"title","required":"0","disabled":"","labelWidth":80,"rowWidth":100,"inputWidth":60,"validateRule":[],"label":"标题","maxLength":"10","minValue":"","divId":"did_1643181317755_0"},"did_1643181317756_1":{"id":"text","name":"price","required":"0","disabled":"","labelWidth":80,"rowWidth":100,"inputWidth":60,"validateRule":["number"],"label":"价格","minValue":"0.1","maxValue":"99","minLength":"","maxLength":"3","placeholder":"","divId":"did_1643181317756_1"},"did_1643181317757_2":{"id":"radio","name":"kind","required":"0","disabled":"","labelWidth":80,"rowWidth":100,"options":[{"value":"1","text":"二手交易","isSelect":"1"},{"value":"2","text":"跑腿","isSelect":"1"},{"value":"3","text":"其他","isSelect":"1"}],"label":"类型","divId":"did_1643181317757_2"},"did_1643181317758_3":{"id":"submitData","name":"name1643181273956","divId":"did_1643181317758_3"}}';
+</script>
+
+<form class="layui-form" id="form" lay-filter="form" enctype="multipart/form-data" action="/CampusForum/addRewardMoney" method="post">
+
+    <div class="layui-form-item adminj-sort-item" id="did_1643181317755_0" cpt_id="text" style="width: 100%;">
+        <label class="layui-form-label">标题</label>
+        <div class="layui-input-inline" style="width:60%;">
+            <input type="text" name="title" autocomplete="off" class="layui-input" style="width: 20%;"
+                   lay-verify="maxLength|required">
+        </div>
+        <div class="layui-form-mid layui-word-aux"></div>
+    </div>
+
+    <div class="layui-form-item adminj-sort-item" id="did_1643181317756_1" cpt_id="text" style="width: 100%;">
+        <label class="layui-form-label">价格</label>
+        <div class="layui-input-inline" style="width:60%;">
+            <input type="text" name="price" autocomplete="off" class="layui-input" style="width: 20%;"
+                   lay-verify="number|maxLength|min|max|required">
+        </div>
+        <div class="layui-form-mid layui-word-aux"></div>
+    </div>
+
+
+    <div class="layui-upload">
+        <button type="button" class="layui-btn" id="test1" style="background: #00a0e9">选择封面</button>
+
+    </div>
+
+    <script>
+        layui.use(['upload','jquery'], function(){
+            var $ = layui.jquery
+                ,upload = layui.upload;
+
+            //普通图片上传
+            var uploadInst = upload.render({
+                elem: '#test1'
+                // ,url: '/CampusForum/upload'
+                ,auto: false
+                ,bindAction: "#btn"
+                ,accept:'images'
+                ,exts:'jpg|png'
+                ,multiple:false
+                ,size:3072
+                ,before: function(obj){
+                    //预读本地文件示例，不支持ie8
+                    obj.preview(function(index, file, result){
+                        $('#demo1').attr('src', result); //图片链接（base64）
+                    });
+                }
+                ,done: function(res){
+                    //如果上传失败
+                    if(res.state > 0){
+                        layer.msg('上传失败');
+                    }
+                    //上传成功
+                    layer.msg('上传成功');
+                }
+            });
+        });
+    </script>
+
+    <script id="container" name="content" type="text/plain">
+        初始化内容
+    </script>
+    <script type="text/javascript">
+        var ue = UE.getEditor('container');
+    </script>
+
+    <div id="did_1643181317758_3" class="layui-form-item adminj-sort-item" cpt_id="submitData">
+        <div class="layui-input-block">
+            <button type="submit" class="layui-btn" lay-submit="" lay-filter="postButton"
+                    id="postButton" style="background: #00a0e9;margin-top: 15px">立即提交</button>
+        </div>
+    </div>
+</form>
+</body>
+</html>

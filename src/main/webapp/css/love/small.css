@@ -1,0 +1,33 @@
+body,ul{margin: 0;padding:0;}
+body{background: #ffeaee;}
+.wrap{display: flex;flex-direction: column;}
+/* 头部样式 */
+.head{background: #72c3ff;height: 80px;display: flex; justify-content:center;position: fixed;top:0;left:0;width: 100%;z-index: 1;}
+.head img{flex:1;width: 60%;align-self: center;margin-left: 5%;margin-right: 2%;}
+.head input{flex:1;margin-right: 10%;font-size: 20px;background:#ffeaee;border: none;cursor: pointer;align-self: center;margin-right:20px;padding: 10px;display: inline-block;border-radius: 5px;box-shadow: 1px 1px 1px grey; }
+/* index样式 */
+.main{display: flex;justify-content: center;background: #ffeaee;margin-top:80px;}
+.list{width: 90%;padding-top:10px;display: flex;flex-direction: column;}
+.list li{list-style: none;display: block;border-radius:5px;background: #62d8f1;margin-top: 15px;padding: 10px;padding-bottom: 26px;color: white;position: relative;box-shadow: 2px 2px 3px grey}
+.list span{font-style: italic;font-weight:lighter;font-size: 14px;}
+.list p{text-indent:1.5em;line-height: 25px;margin: 10px;font-size: 16px;word-wrap: break-word;}
+.list a{position: absolute;right: 10px;font-size: 14px;bottom: 10px;text-decoration: none;color: black;}
+/* discuss样式 */
+.main_d{display: flex;flex-direction:column;justify-content: center;width: 90%;margin: 0 auto;margin-top:100px;}
+.content{padding:10px;color: white;background: #62a3f1;font-size: 28px;}
+.content span{font-size: 14px;font-style: italic;font-weight:lighter;}
+.content p{text-indent:1.5em;line-height: 25px;font-size: 16px;word-wrap: break-word;}
+.list_d{display: block;padding:15px 15px 0 15px;border-radius: 5px;border: 1px solid #c5c5c5;background:#eeeeee;margin-top: 20px;}
+.list_d li{font-size: 14px;list-style: none;display: block;border-radius:5px;background: #62d8f1;margin-bottom: 15px;padding: 10px;color: black;position: relative;box-shadow: 2px 2px 3px grey}
+.list_d span{font-style: italic;font-size: 12px;}
+.list_d p{text-indent:1em;line-height: 22px;margin: 6px;word-wrap: break-word;}
+.form{margin:0;padding:0;height: 40px;position:fixed;bottom:0;left:0;display: flex;width:100%;justify-content: center;z-index: 1;background:rgba(172, 172, 172, 0.6);align-items: center;}
+.form input{height: 30px;margin: 0 10px;line-height: 30px;vertical-align: middle;}
+.form input:last-child{font-size: 16px;display: inline-block;border-radius: 4px;text-align: center;padding: 6px;line-height: 16px;
+	background: #eeeeee;}
+.form input:first-child{width:50%;background:#dcdcdc}
+.message{z-index: 2;background: rgba(192, 192, 192, 0.77);height: 800px;position: fixed;width: 100%;display: none;justify-content: center;align-items: flex-start;}
+.form_i{display: flex;flex-direction: column;align-items: center;width: 400px;height: 200px;background: #338fb2;border: 10px solid white;position: relative;}
+.form_i h2{margin:5px 0;padding:0;font-weight: normal;padding: 5px;font-size: 20px;}
+.form_i textarea{width: 95%;height:50%;background:#dae7dc;font-size:18px;font-family:'黑体','微软雅黑';}
+.form_i input{position: absolute;right: 10px;bottom:10px;width: 20%;}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+  ~ Copyright (c) 2022. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  ~ Morbi non lorem porttitor neque feugiat blandit. Ut vitae ipsum eget quam lacinia accumsan.
+  ~ Etiam sed turpis ac ipsum condimentum fringilla. Maecenas magna.
+  ~ Proin dapibus sapien vel ante. Aliquam erat volutpat. Pellentesque sagittis ligula eget metus.
+  ~ Vestibulum commodo. Ut rhoncus gravida arcu.
+  -->
+
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.ActionMapper">
+<select id="getAction" resultType="action" parameterType="map" >
+    SELECT
+    action.con_id,
+    action.user_id,
+    action.begin_time,
+    action.kind,
+    action.description,
+    action.money,
+    action.expected_time,
+    address.user_name,
+    address.user_number,
+    address.user_address
+    FROM
+    action ,
+    address
+<where>
+    <if test="peopleTime!=null">
+        people_time is null
+    </if>
+    <if test="userId!=null">
+        and user_id=#{userId}
+    </if>
+    and action.address_count = address.address_count
+</where>
+order by begin_time desc
+<if test="page!=null">
+    limit #{page},#{limit}
+</if>
+</select>
+
+    <select id="getActionByUserId" parameterType="map" resultType="action">
+        SELECT
+            action.con_id,
+            action.begin_time,
+            action.kind,
+            action.user_id,
+            action.money,
+            action.people_time,
+            action.end_time,
+            action.expected_time
+        FROM
+            action
+                INNER JOIN address
+                           on address.address_count=action.address_count
+        WHERE
+            action.people = #{userId}
+            limit #{page},#{limit}
+    </select>
+
+    <update id="updateAction" parameterType="map">
+        <if test="kind=='or'">
+            UPDATE action set people_time = #{peopleTime},action.people = #{userId} where con_id=#{conId}
+        </if>
+        <if test="kind=='no'">
+            UPDATE action set people_time = NULL,action.people = NULL where con_id=#{conId}
+        </if>
+        <if test="kind=='yes'">
+            UPDATE action set end_time = #{endTime} where con_id=#{conId}
+        </if>
+    </update>
+
+    <select id="getActionById" resultType="action" parameterType="map">
+        SELECT
+            action.con_id,
+            action.user_id,
+            action.begin_time,
+            action.kind,
+            action.description,
+            action.money,
+            action.expected_time,
+            address.user_name,
+            address.user_number,
+            address.user_address
+        FROM
+            action
+                INNER JOIN address
+                           on address.address_count=action.address_count
+        WHERE
+            action.con_id=#{conId}
+    </select>
+
+</mapper>

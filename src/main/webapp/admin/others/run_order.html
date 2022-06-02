@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>校园跑腿</title>
+    <meta name="description" content="校园跑腿"/>
+    <meta name="keywords" content="校园跑腿"/>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" href="../../css/run_school/amazeui.min.css"/>
+    <link rel="stylesheet" href="../../css/run_school/style.css"/>
+    <script type="text/javascript" src="../../js/run_school/jquery.min.js"></script>
+    <script type="text/javascript" src="../../js/run_school/amazeui.min.js"></script>
+    <script type="text/javascript" src="../../js/run_school/application.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="../../lib/layui-v2.6.3/css/layui.css">
+    <script src="../../lib/layui-v2.6.3/layui.js"></script>
+
+</head>
+<body>
+<header data-am-widget="header" class="am-header am-header-default header">
+<!--    <div class="am-header-left am-header-nav">-->
+<!--        <a href="javascript:history.go(-1)" class="">-->
+<!--            <i class="am-header-icon am-icon-angle-left"></i>-->
+<!--        </a>-->
+<!--    </div>-->
+    <h1 class="am-header-title">返费<a href="#title-link" class="" style="color: #333;">我的抢单</a></h1>
+    <div class="am-header-right am-header-nav">
+        <a href="#right-link" class=""> </a>
+    </div>
+</header>
+
+<div id="list"></div>
+<!--<div class="c-comment">-->
+<!--    <span class="c-comment-num">订单编号：150916517682</span>-->
+<!--    <span class="c-comment-suc">进行中</span>-->
+<!--</div>-->
+<!--<div class="c-comment-list" style="border: 0;">-->
+<!--    <a class="o-con" href="content.html">-->
+<!--        <div class="o-con-img"><img src="images/boy.png"></div>-->
+<!--        <div class="o-con-txt">-->
+<!--            <p>取快递</p>-->
+<!--            <p style="color: gray;margin-top: 2px;font-size: 12px">2018-10-10 18:00:00</p>-->
+<!--            <span style="color: gray;margin-top: 2px;font-size: 12px">来自【西安欧亚学院】</span>-->
+<!--            <p class="price" style="font-size: 14px"> 有点重</p>-->
+<!--        </div>-->
+<!--        <div class="o-con-much"><h4></h4></div>-->
+
+<!--    </a>-->
+<!--    <div class="c-com-money">-->
+<!--        <span class="fr"><i>赚</i><i class="price">2.0</i><i>元</i></span>-->
+<!--    </div>-->
+<!--</div>-->
+<!--<div class="c-com-btn">-->
+<!--    <a href="#">收款</a>-->
+<!--    <a href="#">取消</a>-->
+<!--</div>-->
+<!--<div class="clear"></div>-->
+
+</body>
+</html>
+<script>
+    $.ajax({
+        type:'post',
+        url:'/CampusForum/getActionByUserId',
+        dataType:'json',
+        data:{
+            page:0,
+            limit:50
+        },
+        success:function (data,textStatus) {
+            if (data.data.length==0){
+                layui.use('layer', function(){
+                    var layer = layui.layer;
+                    layer.msg('你暂时还没有信息');
+                });
+                return;
+            }
+            let li="";
+            for (let i = 0; i < data.data.length; i++) {
+                let start="";
+                let hl="";
+                if (data.data[i].endTime==null){
+                    start="进行中"
+                    hl+=                '<div class="c-com-btn">\n' +
+                        '    <a  class="yes">收款<span  hidden>'+data.data[i].conId+'</span></a>\n' +
+                        '    <a  class="no">取消<span  hidden>'+data.data[i].conId+'</span></a>\n' +
+                        '</div>\n'
+                }else {
+                    start="已完成"
+                    hl+= '<div class="c-com-btn">\n' +
+                        '    <a href="#">xxx</a>\n' +
+                        '</div>\n'
+                }
+                li+='<div class="c-comment">\n' +
+                '    <span class="c-comment-num">订单编号：'+data.data[i].conId+'</span>\n' +
+                '    <span class="c-comment-suc">'+start+'</span>\n' +
+                '</div>\n' +
+                '<div class="c-comment-list" style="border: 0;">\n' +
+                '    <a class="o-con" href="content.html">\n' +
+                '        <div class="o-con-img"><img src="../../images/money.jpg"></div>\n' +
+                '        <div class="o-con-txt">\n' +
+                '            <p>'+data.data[i].kind+'</p>\n' +
+                '            <p style="color: gray;margin-top: 2px;font-size: 12px">'+data.data[i].beginTime+'</p>\n' +
+                '            <span style="color: gray;margin-top: 2px;font-size: 12px">来自【'+data.data[i].userId+'】</span>\n' +
+                '            <p class="price" style="font-size: 14px"> '+data.data[i].expectedTime+'</p>\n' +
+                '        </div>\n' +
+                '        <div class="o-con-much"><h4></h4></div>\n' +
+                '\n' +
+                '    </a>\n' +
+                '    <div class="c-com-money">\n' +
+                '        <span class="fr"><i>赚</i><i class="price">'+data.data[i].money+'</i><i>元</i></span>\n' +
+                '    </div>\n' +
+                '</div>\n' +
+                hl +
+                '<div class="clear"></div>'
+
+            }
+            $('#list').html(li);
+            $(".yes").on("click",function () {
+                var l=$(this).find("span").text()
+                change(l,"yes")
+            })
+            $(".no").on("click",function () {
+                var l=$(this).find("span").text()
+                change(l,"no")
+            })
+        },
+        error:function (XMLHttpRequest, textStatus, errorThrown) {
+            console.log(errorThrown)
+        }
+    })
+    function change(id,kind) {
+        $.ajax({
+            type: "POST",
+            url: "/CampusForum/updateAction",
+            dataType: 'json',
+            data:{
+                conId:id,
+                kind:kind
+            },
+            success: function(data, textStatus) {
+                layui.use('layer', function(){
+                    var layer = layui.layer;
+                    layer.msg(data.data[0]);
+                });
+            },
+            errors: function(XMLHttpRequest, textStatus, errorThrown) {
+                alert('失败')
+            }
+        })
+    }
+</script>

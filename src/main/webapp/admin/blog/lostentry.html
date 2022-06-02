@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="../../lib/jquery-3.4.1/jquery-3.4.1.min.js" charset="utf-8"></script>
+
+        <style>
+            body {font-family: Arial, Helvetica, sans-serif;}
+            * {box-sizing: border-box;}
+            input[type=text], select, textarea {
+                width: 100%;
+                padding: 12px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                margin-top: 6px;
+                margin-bottom: 16px;
+                resize: vertical;
+            }
+            input[type=submit] {
+                background-color: #4CAF50;
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            input[type=submit]:hover {
+                background-color: #45a049;
+            }
+            .container {
+                border-radius: 5px;
+                background-color: #f2f2f2;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>填写丢失物品的相关信息</h3>
+        <div class="container">
+                <label>物品类型：</label>
+                <input type="text" name="type" required id="type" placeholder="请输入物品的类型">
+                <label>丢失时间：</label>
+                <input type="text" name="lostTime" required id="lostTime" placeholder="请输入物品的大致丢失时间">
+                <label>丢失地点：</label>
+                <input type="text" name="address" required  id="address" placeholder="请输入物品的大致丢失地点">
+                <label>联系方式：</label>
+                <input type="text" name="contant" required  id="contant" placeholder="请输入联系方式">
+                <label>物品描述：</label>
+                <textarea name="description" rows="10" cols="50" id="description" placeholder="请输入有关物品的更多细节……"></textarea>
+                <input type="submit" value="提交" id="sub">
+        </div>
+    </body>
+<script>
+    $("#sub").on("click", function(){
+        $.ajax({
+            type: "get",
+            url: "/CampusForum/hasLogin",
+            dataType: 'json',
+            success: function(data, textStatus) {
+                if (data.data[0]!= null) {
+                    $.ajax({
+                        type:'post',
+                        url:'/CampusForum/admin/addLostProperty',
+                        dataType:'json',
+                        data:{
+                            type:$("#type").val(),
+                            lostTime:$("#lostTime").val(),
+                            address:$("#address").val(),
+                            contant:$("#contant").val(),
+                            description:$("#description").val(),
+                        },
+                        success:function (data,textStatus) {
+                            alert(data.data[0])
+                        },
+                        error:function (XMLHttpRequest, textStatus, errorThrown) {
+                            console.log(errorThrown)
+                        }
+                })
+                }else {
+                    alert('请登录')
+                }
+            },
+            errors: function(XMLHttpRequest, textStatus, errorThrown) {
+                alert('失败')
+            }
+        })
+    });
+</script>
+</html>

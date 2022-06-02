@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+		<!-- 强制让文档的宽度与设备的宽度保持1:1，并且文档最大的宽度比例是1.0，且不允许用户点击屏幕放大浏览； -->
+		<title>首页</title>
+		<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+		<link rel="stylesheet" media="screen and (max-width:600px)" href="../css/love/small.css" type="text/css" />
+		<link rel="stylesheet" href="../css/love/mycss.css" type="text/css" />
+		<link rel="stylesheet" media="screen and (max-width:899px) and (min-width:601px)" href="../css/love/middle.css"
+			type="text/css" />
+		<link rel="stylesheet" media="screen and (min-width:900px)" href="../css/love/big.css" type="text/css" />
+		<link rel="stylesheet" href="../lib/layui-v2.6.3/css/layui.css" media="all">
+		<link type="text/css" rel="stylesheet" href="../css/index/love.css">
+		<script src="../lib/layui-v2.6.3/layui.js" charset="utf-8"></script>
+
+	</head>
+	<body>
+		<div class="wrap">
+			<div id="message" class="message">
+				<form class="form_i" id="form_i" method='post' action='sdfdsf'>
+					<h2>表白信息</h2>
+					<textarea id="text" name="content" rows="7"></textarea>
+					<input type='submit' id="submit" name='sno2' value='确认'>
+				</form>
+			</div>
+			<div class="main">
+				<i class="layui-icon layui-icon-next" id="right" style="font-size: 30px; color: #1E9FFF;"></i>
+				<i class="layui-icon layui-icon-prev" id="left" style="font-size: 30px; color: #1E9FFF;"></i>
+
+				<ul class="list" id="mylist">
+				</ul>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="../js/ajax/love.js" charset="utf-8"></script>
+
+<!--	<style>-->
+<!--		#left {-->
+<!--			position: fixed;-->
+<!--			bottom: 50%;-->
+<!--			left: 2%;-->
+<!--			cursor: pointer;-->
+<!--		}-->
+<!--		#right {-->
+<!--			position: fixed;-->
+<!--			bottom: 50%;-->
+<!--			right: 2%;-->
+<!--			cursor: pointer;-->
+<!--		}-->
+<!--	</style>-->
+</html>

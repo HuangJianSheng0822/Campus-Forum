@@ -1,0 +1,1462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CampusForum:war" />
+      <artifact name="CampusForum:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e703131c-fbd6-43b9-b6d3-88a60b4f0c34" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copyright/hjs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/78457105-2e46-4b80-be1c-0f2f9b2fa9d1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/78457105-2e46-4b80-be1c-0f2f9b2fa9d1/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/78457105-2e46-4b80-be1c-0f2f9b2fa9d1/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/78457105-2e46-4b80-be1c-0f2f9b2fa9d1/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/78457105-2e46-4b80-be1c-0f2f9b2fa9d1/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_9__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_9__3_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_fileupload_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_fileupload_1_3_1__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_fileupload_1_3_1__3_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_4__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_4__3_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json__3_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ueditor_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ueditor_1_1_2__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ueditor_1_1_2__3_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CampusForum.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/ActionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/AddressController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/LostPropertyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/LoveController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/RevertController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/RewardMoneyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/ActionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/ActionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/AddressMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/AddressMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/BlogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/BlogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/CommentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/CommentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/LostPropertyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/LostPropertyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/LoveMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/LoveMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/RevertMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/RevertMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/RewardMoneyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/RewardMoneyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/LostProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/Love.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/Revert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/RewardMoney.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/ActionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/ActionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/AddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/AddressServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/BlogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/LostPropertyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/LostPropertyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/LoveService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/LoveServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/RevertService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/RevertServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/RewardMoneyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/RewardMoneyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unit/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unit/Json.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unit/MyUUID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unit/aliOSS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/springmvc-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/t1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-codec-1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/json.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ueditor-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/blog/action.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/blog/add_address.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/blog/heart-voice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/blog/input.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/blog/input_debunk.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/blog/lostentry.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/blog/revert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/others/address.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/others/run_order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/user-password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/api/clear.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/api/init.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/api/init2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/comment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/comment/pinglun.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/debunk/input.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/error/dmaku.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/error/dmaku.main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/error/respons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/fonts/_notes/dwsync.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/forum/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/forum/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/index/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/index/debunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/index/love.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/index/revert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/layuimini.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/login/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/lost/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/love/big.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/love/middle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/love/mycss.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/love/small.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/register/a3common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/register/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/register/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/register/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/run_school/amazeui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/run_school/datedropper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/run_school/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/run_school/timedropper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/run_school/v2/member.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/run_school/v2/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/themes/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/extend/cardTable/cardTable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/extend/cardTable/cardtable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/extend2/cardTable/cardTable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/extend2/cardTable/cardtable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/authn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bg01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/boy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/captcha.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/donate_qrcode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/error_red.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/head1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icon-login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/loginback.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/loginbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/money.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/register.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/user1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/user2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/user3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/user4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/user5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ajax/blog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ajax/card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ajax/content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ajax/debunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ajax/discuss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ajax/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ajax/lostentry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ajax/love.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ajax/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ajax/revert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ajax/run_pool.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ajax/second-hand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/error/createjs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/error/dinosaur.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/error/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/error/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/lay-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/lay-module/echarts/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/lay-module/echarts/echartsTheme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/lay-module/iconPicker/iconPickerFa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/lay-module/layarea/layarea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/lay-module/layuimini/miniAdmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/lay-module/layuimini/miniMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/lay-module/layuimini/miniTab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/lay-module/layuimini/miniTheme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/lay-module/layuimini/miniTongji.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/lay-module/step-lay/step.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/lay-module/step-lay/step.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/lay-module/tableSelect/tableSelect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/lay-module/treetable-lay/treetable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/lay-module/treetable-lay/treetable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/lay-module/wangEditor/fonts/w-e-icon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/lay-module/wangEditor/wangEditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/lay-module/wangEditor/wangEditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/lay-module/wangEditor/wangEditor.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/lay-module/wangEditor/wangEditor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/lay-module/wangEditor/wangEditor.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/run_school/TimeObjectUtil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/run_school/amazeui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/run_school/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/run_school/datedropper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/run_school/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/run_school/timedropper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/anchor/anchor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/attachment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/attachment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/images/alignicon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/images/alignicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/images/file-icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/images/file-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/background/background.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/background/background.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/background/background.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/background/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/background/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/charts/chart.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/charts/charts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/charts/charts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/charts/charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/charts/images/charts0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/charts/images/charts1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/charts/images/charts2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/charts/images/charts3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/charts/images/charts4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/charts/images/charts5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/emotion/emotion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/emotion/emotion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/emotion/emotion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/emotion/images/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/emotion/images/bface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/emotion/images/cface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/emotion/images/fface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/emotion/images/jxface2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/emotion/images/tface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/emotion/images/wface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/emotion/images/yface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/gmap/gmap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/help/help.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/help/help.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/help/help.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/image/image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/image/image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/image/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/image/images/alignicon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/image/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/image/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/image/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/image/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/image/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/image/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/image/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/insertframe/insertframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/internal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/link/link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/map/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/map/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/music/music.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/music/music.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/music/music.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/preview/preview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/addimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/brush.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/delimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/delimgH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/emptyH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/eraser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/redo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/redoH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/scale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/scaleH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/size.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/undo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/undoH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/scrawl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/scrawl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/scrawl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/searchreplace/searchreplace.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/searchreplace/searchreplace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/snapscreen/snapscreen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/spechars/spechars.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/spechars/spechars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/table/dragicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/table/edittable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/table/edittable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/table/edittable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/table/edittd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/table/edittip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/template/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/template/images/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/template/images/pre0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/template/images/pre1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/template/images/pre2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/template/images/pre3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/template/images/pre4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/template/template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/template/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/template/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images/center_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images/file-icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images/file-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images/left_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images/none_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images/right_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/video.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/webapp/webapp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/wordimage/imageUploader.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/wordimage/tangram.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/wordimage/wordimage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/wordimage/wordimage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/jsp/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/jsp/controller.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/jsp/lib/commons-codec-1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/jsp/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/jsp/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/jsp/lib/json.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/jsp/lib/ueditor-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/addimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/alldeletebtnhoverskin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/alldeletebtnupskin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/deletedisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/deleteenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/listbackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/localimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/rotateleftdisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/rotateleftenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/rotaterightdisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/rotaterightenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/zh-cn/images/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/zh-cn/images/localimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/zh-cn/images/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/zh-cn/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/zh-cn/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/css/ueditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/css/ueditor.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/dialogbase.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/anchor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/arrow_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/arrow_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/button-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/cancelbutton.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/charts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/cursor_h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/cursor_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/cursor_v.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/cursor_v.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/dialog-title-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/filescan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/highlighted.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/icons-all.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/loaderror.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/lock.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/neweditor-tab-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/pagebreak.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/scale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/sortable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/sparator_v.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/table-cell-align.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/tangram-colorpicker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/toolbar_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/unhighlighted.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/videologo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/word.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/wordpaste.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/iframe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/SyntaxHighlighter/shCore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/codemirror/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/codemirror/codemirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/adapters/mootools-adapter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/adapters/prototype-adapter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/adapters/standalone-framework.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/highcharts-more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/highcharts-more.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/highcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/highcharts.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/annotations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/annotations.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/canvas-tools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/canvas-tools.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/data.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/drilldown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/drilldown.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/exporting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/exporting.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/funnel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/funnel.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/heatmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/heatmap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/map.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/no-data-to-display.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/themes/dark-blue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/themes/dark-green.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/themes/gray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/themes/grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/themes/skies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/jquery-1.10.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/jquery-1.10.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/jquery-1.10.2.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/video-js/font/vjs.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/video-js/font/vjs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/video-js/font/vjs.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/video-js/font/vjs.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/video-js/video-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/video-js/video-js.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/video-js/video-js.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/video-js/video.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/video-js/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/webuploader/Uploader.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.flashonly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.flashonly.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.html5only.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.html5only.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.withoutimage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/xss.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/zeroclipboard/ZeroClipboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/ueditor.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/ueditor.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/ueditor.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/ueditor.parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/ueditor.parse.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/anchor/anchor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/attachment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/attachment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/fileTypeImages/icon_chm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/fileTypeImages/icon_default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/fileTypeImages/icon_doc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/fileTypeImages/icon_exe.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/fileTypeImages/icon_mv.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/fileTypeImages/icon_psd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/fileTypeImages/icon_rar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/fileTypeImages/icon_txt.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/fileTypeImages/icon_xls.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/images/alignicon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/images/alignicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/images/file-icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/images/file-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/attachment/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/background/background.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/background/background.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/background/background.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/background/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/background/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/charts/chart.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/charts/charts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/charts/charts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/charts/charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/charts/images/charts0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/charts/images/charts1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/charts/images/charts2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/charts/images/charts3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/charts/images/charts4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/charts/images/charts5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/emotion/emotion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/emotion/emotion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/emotion/emotion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/emotion/images/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/emotion/images/bface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/emotion/images/cface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/emotion/images/fface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/emotion/images/jxface2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/emotion/images/neweditor-tab-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/emotion/images/tface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/emotion/images/wface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/emotion/images/yface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/gmap/gmap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/help/help.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/help/help.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/help/help.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/image/image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/image/image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/image/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/image/images/alignicon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/image/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/image/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/image/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/image/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/image/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/image/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/image/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/insertframe/insertframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/internal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/link/link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/map/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/map/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/music/music.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/music/music.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/music/music.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/preview/preview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/scrawl/images/addimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/scrawl/images/brush.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/scrawl/images/delimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/scrawl/images/delimgH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/scrawl/images/empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/scrawl/images/emptyH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/scrawl/images/eraser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/scrawl/images/redo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/scrawl/images/redoH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/scrawl/images/scale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/scrawl/images/scaleH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/scrawl/images/size.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/scrawl/images/undo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/scrawl/images/undoH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/scrawl/scrawl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/scrawl/scrawl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/scrawl/scrawl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/searchreplace/searchreplace.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/searchreplace/searchreplace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/snapscreen/snapscreen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/spechars/spechars.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/spechars/spechars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/table/dragicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/table/edittable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/table/edittable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/table/edittable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/table/edittd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/table/edittip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/template/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/template/images/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/template/images/pre0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/template/images/pre1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/template/images/pre2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/template/images/pre3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/template/images/pre4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/template/template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/template/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/template/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/video/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/video/images/center_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/video/images/file-icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/video/images/file-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/video/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/video/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/video/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/video/images/left_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/video/images/none_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/video/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/video/images/right_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/video/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/video/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/video/video.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/video/video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/video/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/webapp/webapp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/wordimage/fClipboard_ueditor.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/wordimage/imageUploader.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/wordimage/tangram.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/wordimage/wordimage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/dialogs/wordimage/wordimage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/jsp/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/jsp/controller.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/jsp/lib/commons-codec-1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/jsp/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/jsp/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/jsp/lib/json.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/jsp/lib/ueditor-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/lang/en/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/lang/en/images/addimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/lang/en/images/alldeletebtnhoverskin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/lang/en/images/alldeletebtnupskin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/lang/en/images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/lang/en/images/button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/lang/en/images/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/lang/en/images/deletedisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/lang/en/images/deleteenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/lang/en/images/listbackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/lang/en/images/localimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/lang/en/images/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/lang/en/images/rotateleftdisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/lang/en/images/rotateleftenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/lang/en/images/rotaterightdisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/lang/en/images/rotaterightenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/lang/en/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/lang/zh-cn/images/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/lang/zh-cn/images/localimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/lang/zh-cn/images/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/lang/zh-cn/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/lang/zh-cn/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/css/ueditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/css/ueditor.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/dialogbase.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/anchor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/arrow_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/arrow_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/button-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/cancelbutton.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/charts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/cursor_h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/cursor_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/cursor_v.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/cursor_v.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/dialog-title-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/filescan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/highlighted.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/icons-all.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/loaderror.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/lock.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/neweditor-tab-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/pagebreak.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/scale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/sortable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/sparator_v.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/table-cell-align.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/tangram-colorpicker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/toolbar_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/unhighlighted.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/videologo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/word.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/default/images/wordpaste.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/themes/iframe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/SyntaxHighlighter/shCore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/SyntaxHighlighter/shCoreDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/codemirror/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/codemirror/codemirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/adapters/mootools-adapter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/adapters/mootools-adapter.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/adapters/prototype-adapter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/adapters/prototype-adapter.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/adapters/standalone-framework.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/adapters/standalone-framework.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/highcharts-more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/highcharts-more.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/highcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/highcharts.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/modules/annotations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/modules/annotations.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/modules/canvas-tools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/modules/canvas-tools.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/modules/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/modules/data.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/modules/drilldown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/modules/drilldown.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/modules/exporting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/modules/exporting.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/modules/funnel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/modules/funnel.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/modules/heatmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/modules/heatmap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/modules/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/modules/map.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/modules/no-data-to-display.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/modules/no-data-to-display.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/themes/dark-blue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/themes/dark-green.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/themes/gray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/themes/grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/highcharts/themes/skies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/jquery-1.10.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/jquery-1.10.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/jquery-1.10.2.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/snapscreen/UEditorSnapscreen.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/video-js/font/vjs.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/video-js/font/vjs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/video-js/font/vjs.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/video-js/font/vjs.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/video-js/video-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/video-js/video-js.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/video-js/video-js.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/video-js/video.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/video-js/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/webuploader/Uploader.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/webuploader/webuploader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/webuploader/webuploader.custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/webuploader/webuploader.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/webuploader/webuploader.flashonly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/webuploader/webuploader.flashonly.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/webuploader/webuploader.html5only.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/webuploader/webuploader.html5only.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/webuploader/webuploader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/webuploader/webuploader.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/webuploader/webuploader.withoutimage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/webuploader/webuploader.withoutimage.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/xss.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/zeroclipboard/ZeroClipboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/zeroclipboard/ZeroClipboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/third-party/zeroclipboard/ZeroClipboard.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/ueditor.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/ueditor.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/ueditor.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/ueditor.parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor2/ueditor.parse.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/jq-module/jquery.particleground.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/jq-module/paigusu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/jq-module/zyupload/zyupload-1.0.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/jq-module/zyupload/zyupload-1.0.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/jquery-3.4.1/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui-v2.6.3/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui-v2.6.3/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui-v2.6.3/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui-v2.6.3/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui-v2.6.3/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui-v2.6.3/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui-v2.6.3/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui-v2.6.3/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui-v2.6.3/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui-v2.6.3/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui-v2.6.3/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui-v2.6.3/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui-v2.6.3/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui-v2.6.3/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui-v2.6.3/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/500.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/card.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/debunk.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/discuss.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/help.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lostentry.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/love.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/newComment.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/revert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/run_pool.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/second-hand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/user-setting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/welcome-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mapper/testRewardMoney.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pojo/TestPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/service/SSM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/service/TestLostProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/unit/TestOss.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Jsp File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="E:\Git\bin\git.exe" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/page/register.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/controller/UserController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/page/user-setting.html" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\maven\apache-maven-3.8.4\maven-repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../maven/apache-maven-3.8.4" />
+        <option name="userSettingsFile" value="E:\maven\apache-maven-3.8.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="23jXYaXf9oxwLdw2RfnHpF8RhdH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\CampusForum\src\main\webapp\js" />
+      <recent name="E:\CampusForum\src\main\webapp\images" />
+      <recent name="E:\CampusForum\src\main\webapp\page" />
+      <recent name="E:\CampusForum\src\main\webapp\css\error" />
+      <recent name="E:\CampusForum\src\main\webapp\api" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\CampusForum\src\main\webapp\css" />
+      <recent name="E:\CampusForum\src\main\webapp\extend3\cardTable" />
+      <recent name="E:\CampusForum\src\main\webapp\admin\blog" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat 服务器.Tomcat 9.0.58">
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main" />
+      <module name="CampusForum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="input.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://101.132.152.249:8080/CampusForum/src/main/webapp/admin/blog/input.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://101.132.152.249:8080/CampusForum/src/main/webapp/page/login.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="register.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://101.132.152.249:8080/CampusForum/src/main/webapp/page/register.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="welcome.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://101.132.152.249:8080/CampusForum/src/main/webapp/page/welcome.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="192.168.10.5" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.58" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://192.168.10.5:8080/CampusForum" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="CampusForum:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/CampusForum" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="63fd3087-4618-4aca-97e6-c0b432144d88" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50220" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="CampusForum:war" />
+          <artifact name="CampusForum:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.58" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.58" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="CampusForum:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/CampusForum" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="8fb82cc4-e821-4a9a-893a-08e354504df7" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50220" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="CampusForum:war" />
+          <artifact name="CampusForum:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/CampusForum_war/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="CampusForum:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/CampusForum_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_CampusForum" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50220" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="CampusForum:war" />
+          <artifact name="CampusForum:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript 调试.register.html" />
+      <item itemvalue="JavaScript 调试.login.html" />
+      <item itemvalue="JavaScript 调试.input.html" />
+      <item itemvalue="JavaScript 调试.welcome.html" />
+      <item itemvalue="Tomcat 服务器.192.168.10.5" />
+      <item itemvalue="Tomcat 服务器.Tomcat 9.0.58" />
+      <item itemvalue="应用程序.main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript 调试.welcome.html" />
+        <item itemvalue="应用程序.main" />
+        <item itemvalue="JavaScript 调试.input.html" />
+        <item itemvalue="JavaScript 调试.login.html" />
+        <item itemvalue="JavaScript 调试.register.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e703131c-fbd6-43b9-b6d3-88a60b4f0c34" name="Default Changelist" comment="" />
+      <created>1642248518833</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642248518833</updated>
+      <workItem from="1642248520264" duration="349000" />
+      <workItem from="1642248901384" duration="1786000" />
+      <workItem from="1642261852518" duration="768000" />
+      <workItem from="1642306854161" duration="34000" />
+      <workItem from="1642310758342" duration="380000" />
+      <workItem from="1642311729851" duration="1316000" />
+      <workItem from="1642326145714" duration="3103000" />
+      <workItem from="1643008753176" duration="1368000" />
+      <workItem from="1643010149236" duration="5613000" />
+      <workItem from="1643016305350" duration="1323000" />
+      <workItem from="1643017660798" duration="225000" />
+      <workItem from="1643018028162" duration="1581000" />
+      <workItem from="1643086456427" duration="1237000" />
+      <workItem from="1643115920272" duration="4665000" />
+      <workItem from="1643120965688" duration="1893000" />
+      <workItem from="1643172571845" duration="2426000" />
+      <workItem from="1643175032171" duration="10927000" />
+      <workItem from="1643209373775" duration="538000" />
+      <workItem from="1643209930584" duration="1031000" />
+      <workItem from="1643257220291" duration="2360000" />
+      <workItem from="1643343597183" duration="9521000" />
+      <workItem from="1643366982522" duration="114000" />
+      <workItem from="1643426649370" duration="12290000" />
+      <workItem from="1643439185681" duration="2023000" />
+      <workItem from="1643632194748" duration="1799000" />
+      <workItem from="1644056317691" duration="927000" />
+      <workItem from="1644477516610" duration="1185000" />
+      <workItem from="1644478726898" duration="4530000" />
+      <workItem from="1644816481884" duration="1521000" />
+      <workItem from="1644818019046" duration="2962000" />
+      <workItem from="1644831433506" duration="5923000" />
+      <workItem from="1644924794928" duration="1000" />
+      <workItem from="1644992227305" duration="139000" />
+      <workItem from="1645006284470" duration="7788000" />
+      <workItem from="1645014154842" duration="3353000" />
+      <workItem from="1645021895537" duration="898000" />
+      <workItem from="1645022813724" duration="26000" />
+      <workItem from="1645022852764" duration="41000" />
+      <workItem from="1645022982591" duration="54000" />
+      <workItem from="1645023048089" duration="39000" />
+      <workItem from="1645023100787" duration="4021000" />
+      <workItem from="1645067343071" duration="6715000" />
+      <workItem from="1645074214796" duration="545000" />
+      <workItem from="1645093148276" duration="5739000" />
+      <workItem from="1645099054562" duration="2677000" />
+      <workItem from="1645110592675" duration="3411000" />
+      <workItem from="1645153667890" duration="14060000" />
+      <workItem from="1645174450386" duration="78000" />
+      <workItem from="1645179636758" duration="6618000" />
+      <workItem from="1645198113765" duration="2770000" />
+      <workItem from="1645200916873" duration="65000" />
+      <workItem from="1645238456196" duration="2471000" />
+      <workItem from="1645240942546" duration="36000" />
+      <workItem from="1645240994166" duration="1389000" />
+      <workItem from="1645244333429" duration="9000" />
+      <workItem from="1645263872071" duration="814000" />
+      <workItem from="1645265921714" duration="5945000" />
+      <workItem from="1645356574780" duration="4652000" />
+      <workItem from="1645455836458" duration="4167000" />
+      <workItem from="1645496924780" duration="8658000" />
+      <workItem from="1645514626191" duration="732000" />
+      <workItem from="1645523742002" duration="2661000" />
+      <workItem from="1645526695072" duration="1352000" />
+      <workItem from="1645591605063" duration="11524000" />
+      <workItem from="1645616091865" duration="8295000" />
+      <workItem from="1645677960504" duration="6561000" />
+      <workItem from="1645706718004" duration="6006000" />
+      <workItem from="1645714431814" duration="387000" />
+      <workItem from="1645777457843" duration="3183000" />
+      <workItem from="1645860422459" duration="11100000" />
+      <workItem from="1645872526131" duration="877000" />
+      <workItem from="1645933144520" duration="1047000" />
+      <workItem from="1645936689724" duration="1136000" />
+      <workItem from="1645944711083" duration="7621000" />
+      <workItem from="1646027491301" duration="1270000" />
+      <workItem from="1646061722642" duration="2043000" />
+      <workItem from="1646099366443" duration="3911000" />
+      <workItem from="1646104438461" duration="2294000" />
+      <workItem from="1646107088492" duration="3955000" />
+      <workItem from="1646144783817" duration="4451000" />
+      <workItem from="1646196428197" duration="5386000" />
+      <workItem from="1646203327336" duration="618000" />
+      <workItem from="1646283143212" duration="1855000" />
+      <workItem from="1646561447993" duration="149000" />
+      <workItem from="1646561611840" duration="432000" />
+      <workItem from="1646562062301" duration="1047000" />
+      <workItem from="1646563128137" duration="1641000" />
+      <workItem from="1646621928982" duration="424000" />
+      <workItem from="1646622371789" duration="551000" />
+      <workItem from="1646641832226" duration="218000" />
+      <workItem from="1646705035870" duration="4612000" />
+      <workItem from="1646900158520" duration="7176000" />
+      <workItem from="1646921313227" duration="5028000" />
+      <workItem from="1646927213599" duration="987000" />
+      <workItem from="1646974883439" duration="8451000" />
+      <workItem from="1646994102536" duration="4566000" />
+      <workItem from="1647069487506" duration="4368000" />
+      <workItem from="1647074010396" duration="303000" />
+      <workItem from="1647152862334" duration="106000" />
+      <workItem from="1647242702211" duration="189000" />
+      <workItem from="1647244318238" duration="1338000" />
+      <workItem from="1647264951615" duration="1303000" />
+      <workItem from="1647267345676" duration="4220000" />
+      <workItem from="1647307932396" duration="3021000" />
+      <workItem from="1647311691185" duration="806000" />
+      <workItem from="1647315112037" duration="6528000" />
+      <workItem from="1647351728294" duration="400000" />
+      <workItem from="1647401685008" duration="357000" />
+      <workItem from="1647443366863" duration="382000" />
+      <workItem from="1647443784879" duration="1389000" />
+      <workItem from="1647483185772" duration="15961000" />
+      <workItem from="1647508773936" duration="4705000" />
+      <workItem from="1647530024850" duration="2392000" />
+      <workItem from="1647579496924" duration="536000" />
+      <workItem from="1647582448073" duration="7639000" />
+      <workItem from="1647616123099" duration="3627000" />
+      <workItem from="1647619805298" duration="1474000" />
+      <workItem from="1647621313910" duration="95000" />
+      <workItem from="1647665601895" duration="9505000" />
+      <workItem from="1647675436344" duration="1269000" />
+      <workItem from="1647755976735" duration="3329000" />
+      <workItem from="1647770539622" duration="314000" />
+      <workItem from="1647772874850" duration="1222000" />
+      <workItem from="1647846722181" duration="2057000" />
+      <workItem from="1647964547406" duration="191000" />
+      <workItem from="1648122325378" duration="645000" />
+      <workItem from="1648129467741" duration="590000" />
+      <workItem from="1648134986044" duration="1187000" />
+      <workItem from="1648304277071" duration="114000" />
+      <workItem from="1651058592751" duration="952000" />
+      <workItem from="1651662770930" duration="34000" />
+      <workItem from="1652268857807" duration="920000" />
+      <workItem from="1652279848611" duration="19000" />
+      <workItem from="1652364102531" duration="1951000" />
+      <workItem from="1652413143516" duration="1325000" />
+      <workItem from="1652415090147" duration="15000" />
+      <workItem from="1652449217915" duration="140000" />
+      <workItem from="1654067776816" duration="294000" />
+      <workItem from="1654081107633" duration="672000" />
+      <workItem from="1654099844610" duration="884000" />
+      <workItem from="1654144700207" duration="3259000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Default Changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

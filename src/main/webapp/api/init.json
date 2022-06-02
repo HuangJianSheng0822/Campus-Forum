@@ -1,0 +1,73 @@
+{
+	"homeInfo": {
+		"title": "吐槽专区",
+		"href": "page/debunk.html"
+	},
+	"logoInfo": {
+		"title": "悦聊",
+		"image": "",
+		"href": ""
+	},
+	"menuInfo": [{
+		"title": "",
+		"icon": "",
+		"href": "",
+		"target": "",
+		"child": [
+			{
+				"title": "登录",
+				"href": "page/login.html",
+				"icon": "fa fa-heart-o",
+				"target": "_self"
+			},
+			{
+				"title": "吐槽专区",
+				"href": "page/debunk.html",
+				"icon": "fa fa-file-text",
+				"target": "_self"
+			},
+			{
+				"title": "赏金猎人",
+				"icon": "fa fa-jpy",
+				"target": "_self",
+				"child": [{
+						"title": "二手交易",
+						"href": "page/second-hand.html",
+						"icon": "fa fa-tachometer",
+						"target": "_self"
+					},
+					{
+						"title": "跑腿交易",
+						"href": "page/run_pool.html",
+						"icon": "fa fa-tachometer",
+						"target": "_self"
+					}
+				]
+			},
+			{
+				"title": "表白墙",
+				"href": "page/love.html",
+				"icon": "fa fa-heart-o",
+				"target": "_self"
+			},
+			{
+				"title": "找主人",
+				"icon": "fa fa-window-maximize",
+				"target": "_self",
+				"child": [{
+						"title": "失物寻找",
+						"icon": "fa fa-window-maximize",
+						"target": "_self",
+						"href": "page/lostentry.html"
+					},
+					{
+						"title": "失物招领",
+						"icon": "fa fa-window-maximize",
+						"target": "_self",
+						"href": "page/revert.html"
+					}
+				]
+			}
+		]
+	}]
+}

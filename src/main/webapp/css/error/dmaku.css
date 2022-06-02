@@ -1,0 +1,23 @@
+/****************************************************************
+ *																*		
+ * 						      代码库							*
+ *                        www.dmaku.com							*
+ *       		  努力创建完善、持续更新插件以及模板			*
+ * 																*
+****************************************************************/
+body{font-size:12px;background:#e9eef4;font-family:"Helvetica Neue",Helvetica,Arial,'Microsoft YaHei',sans-serif}
+*{margin:0;padding:0;list-style:none}
+.wh{width:1180px;margin:0 auto}
+.missing{background:#fff;margin:60px auto}
+.fh{overflow:hidden;zoom:1}
+.error{overflow:hidden;zoom:1;width:85%;margin:97px auto}
+.error_left,.error_right{float:left}
+a{color:#999b9d;text-decoration:none}
+img{border:0;vertical-align:text-bottom}
+.error_right{margin-left:106px;color:#35a2f4;margin-top:56px}
+ul{margin:0;padding:0}
+li{margin:0;padding:0}
+.error_right li{margin-bottom:5px}
+.error_right li.error_title{font-size:36px;font-weight:bold;margin-bottom:11px}
+.error_right li.error_info{margin-bottom:31px}
+.error_right a{color:#fe5816}
