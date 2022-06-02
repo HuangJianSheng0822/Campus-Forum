@@ -11,3 +11,149 @@
 ![image](https://user-images.githubusercontent.com/91519206/171579502-1fc9cc34-15af-4b68-b96d-a5cf06578ddf.png)
 ![image](https://user-images.githubusercontent.com/91519206/171579555-af0119dc-f11b-4a08-929f-564e2376d3d8.png)
 # 数据库
+
+```
+/******************************************/
+/*   DatabaseName = test   */
+/*   TableName = action   */
+/******************************************/
+CREATE TABLE `action` (
+  `con_id` varchar(60) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL COMMENT '跑腿任务id',
+  `user_id` varchar(36) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL COMMENT '用户id',
+  `begin_time` datetime NOT NULL COMMENT '发布日期',
+  `people` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin DEFAULT NULL COMMENT '接单的人',
+  `people_time` datetime DEFAULT NULL COMMENT '接单的时间',
+  `end_time` datetime DEFAULT NULL COMMENT '完成时间',
+  `kind` varchar(50) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL COMMENT '类型',
+  `description` text CHARACTER SET utf8 COLLATE utf8_bin NOT NULL COMMENT '描述',
+  `money` double(3,1) NOT NULL COMMENT '金额',
+  `expected_time` varchar(30) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL COMMENT '期望时间',
+  `address_count` varchar(60) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL COMMENT '地址索引',
+  PRIMARY KEY (`con_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='跑腿行为表'
+;
+
+/******************************************/
+/*   DatabaseName = test   */
+/*   TableName = address   */
+/******************************************/
+CREATE TABLE `address` (
+  `address_count` varchar(100) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL COMMENT '地址索引',
+  `user_id` varchar(36) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL COMMENT '用户id',
+  `user_name` varchar(5) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL COMMENT '联系人姓名',
+  `user_number` varchar(11) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL COMMENT '联系方式',
+  `user_address` varchar(30) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL COMMENT '地址',
+  KEY `id` (`address_count`,`user_id`) USING BTREE,
+  KEY `indexName` (`address_count`,`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='地址表'
+;
+
+/******************************************/
+/*   DatabaseName = test   */
+/*   TableName = blog   */
+/******************************************/
+CREATE TABLE `blog` (
+  `con_id` varchar(100) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL COMMENT '内容id',
+  `user_id` varchar(36) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL COMMENT '用户id',
+  `date` datetime NOT NULL COMMENT '发布日期',
+  `title` varchar(50) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL COMMENT '标题',
+  `image` varchar(100) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL COMMENT '封面',
+  `content` text CHARACTER SET utf8 COLLATE utf8_bin COMMENT '具体内容',
+  PRIMARY KEY (`con_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='吐槽表'
+;
+
+/******************************************/
+/*   DatabaseName = test   */
+/*   TableName = comment   */
+/******************************************/
+CREATE TABLE `comment` (
+  `con_id` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '所要评论的内容id',
+  `user_id` varchar(64) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '用户id',
+  `user_comment` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '用户评论'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='评论表'
+;
+
+/******************************************/
+/*   DatabaseName = test   */
+/*   TableName = lostpropertysearch   */
+/******************************************/
+CREATE TABLE `lostpropertysearch` (
+  `id` varchar(40) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '失物id',
+  `user_id` varchar(64) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '用户id',
+  `description` text CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '描述',
+  `date` datetime NOT NULL COMMENT '发布日期',
+  `status` int(1) NOT NULL COMMENT '状态',
+  `type` varchar(6) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '类型',
+  `address` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '地址',
+  `contant` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '内容',
+  `lost_time` varchar(10) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '丢失时间',
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='失物寻找表'
+;
+
+/******************************************/
+/*   DatabaseName = test   */
+/*   TableName = love   */
+/******************************************/
+CREATE TABLE `love` (
+  `user_id` varchar(64) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '用户id',
+  `love_id` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '内容id',
+  `date` datetime NOT NULL COMMENT '发布日期',
+  `is_anonymous` int(1) NOT NULL COMMENT '是否匿名',
+  `description` longtext CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '描述',
+  PRIMARY KEY (`love_id`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='表白墙表'
+;
+
+/******************************************/
+/*   DatabaseName = test   */
+/*   TableName = revert   */
+/******************************************/
+CREATE TABLE `revert` (
+  `conId` varchar(50) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL COMMENT '失物id',
+  `userId` varchar(36) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL COMMENT '用户id',
+  `date` datetime NOT NULL COMMENT '发布日期',
+  `type` varchar(10) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL COMMENT '类型',
+  `pickup_time` varchar(20) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL COMMENT '拾取图片',
+  `address` varchar(30) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL COMMENT '地址',
+  `contant` varchar(20) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL COMMENT '内容',
+  `image` varchar(50) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL COMMENT '图片',
+  `description` text CHARACTER SET utf8 COLLATE utf8_bin NOT NULL COMMENT '内容',
+  PRIMARY KEY (`conId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='拾取失物表'
+;
+
+/******************************************/
+/*   DatabaseName = test   */
+/*   TableName = rewardmoney   */
+/******************************************/
+CREATE TABLE `rewardmoney` (
+  `con_id` varchar(64) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '内容id',
+  `user_id` varchar(64) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '用户id',
+  `title` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '标题',
+  `image` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '封面',
+  `price` double(3,1) NOT NULL COMMENT '金额',
+  `kind` int(1) NOT NULL COMMENT '类型',
+  `content` text CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '内容',
+  `begin_date` datetime NOT NULL COMMENT '发布日期',
+  `correct` int(1) NOT NULL COMMENT '审核是否通过',
+  `recipient` int(6) DEFAULT NULL COMMENT '接受的人',
+  `end_date` datetime DEFAULT NULL COMMENT '结束日期',
+  PRIMARY KEY (`con_id`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='二手交易表'
+;
+
+/******************************************/
+/*   DatabaseName = test   */
+/*   TableName = user   */
+/******************************************/
+CREATE TABLE `user` (
+  `id` varchar(64) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '用户id',
+  `password` varchar(12) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '用户密码',
+  `school` varchar(6) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '学校',
+  PRIMARY KEY (`id`,`school`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='用户表'
+;
+
+```
