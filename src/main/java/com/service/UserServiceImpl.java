@@ -83,11 +83,11 @@ public class UserServiceImpl implements UserService{
             e.printStackTrace();
         }
         try {
-            email.setFrom("huang_j_s_0822@163.com","校悦站");
+            email.setFrom("xx@163.com","校悦站");
         } catch (EmailException e) {
             e.printStackTrace();
         }
-        email.setAuthentication("huang_j_s_0822@163.com","MPPLVWNNXDSRYZIA");
+        email.setAuthentication("xx@163.com","xx");
         email.setSubject("校悦站");//设置发送主题
 
         String val = "";
