@@ -14,13 +14,6 @@
 
 <!--    <import resource="beans.xml"></import>-->
 <!--    <import resource="springmvc-config.xml"></import>-->
-    <!--Spring整合MyBatis框架-->
-<!--        <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">-->
-<!--            <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>-->
-<!--            <property name="url" value="jdbc:mysql://rm-bp1q01pc0w39b38l6go.mysql.rds.aliyuncs.com:3306/test?useUnicode=true&amp;characterEncoding=utf8&amp;useSSL=true"/>-->
-<!--            <property name="username" value="huangjiansheng"/>-->
-<!--            <property name="password" value="@huang3255186114"/>-->
-<!--        </bean>-->
     <!-- 1. 数据源 : DruidDataSource-->
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
         <property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
